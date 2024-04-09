@@ -1,7 +1,4 @@
-package com.alibou.websocket.config;
-
-import com.alibou.websocket.chat.ChatMessage;
-import com.alibou.websocket.chat.MessageType;
+package com.paramjit.websocket.config;
 
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
@@ -11,6 +8,9 @@ import org.springframework.messaging.simp.SimpMessageSendingOperations;
 import org.springframework.messaging.simp.stomp.StompHeaderAccessor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.messaging.SessionDisconnectEvent;
+
+import com.paramjit.websocket.chat.ChatMessage;
+import com.paramjit.websocket.chat.MessageType;
 
 @Component
 @Slf4j
